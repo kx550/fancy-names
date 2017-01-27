@@ -94,15 +94,15 @@ A collection of fancy names if you need some fake users. Or something.
 | Cedric Sentino       | Engelmann            |
 | Turbo Pascal         | Nullpunkt            |
 | Mehmet               | Rosenbaum            |
-| Quentin              | 0                    |
-| Quintus              | 0                    |
-| Fahritt              | 0                    |
-| 0                    | Schellendrescher     |
-| 0                    | Borkensudel          |
-| 0                    | O'Bumblebee          |
-| 0                    | Wechseltalg          |
-| 0                    | Stronzenoms          |
-| 0                    | Lullipol             |
+| Quentin              |                      |
+| Quintus              |                      |
+| Fahritt              |                      |
+|                      | Schellendrescher     |
+|                      | Borkensudel          |
+|                      | O'Bumblebee          |
+|                      | Wechseltalg          |
+|                      | Stronzenoms          |
+|                      | Lullipol             |
 
 ## Contributors
 
