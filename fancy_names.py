@@ -23,10 +23,10 @@ def add():
     name = raw_input()
     print "last name:"
     surname = raw_input()
-    new_entry = '{"name": name, "surname": surname}\n'
+    new_entry = {"name": name, "surname": surname}
     data.append(new_entry)
     with open('names.json', 'w') as n:
-        json.dump(data, n)
+        json.dump(data, n, sort_keys=True, indent=4, separators=(',', ': '))
     return "%s %s" % (name, surname)
 
 def num():
