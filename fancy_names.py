@@ -18,5 +18,16 @@ def all():
         print "%s %s" % (e["name"], e["surname"])
     return
 
+def add():
+    print "first name:"
+    name = raw_input()
+    print "last name:"
+    surname = raw_input()
+    new_entry = '{"name": name, "surname": surname}\n'
+    data.append(new_entry)
+    with open('names.json', 'w') as n:
+        json.dump(data, n)
+    return "%s %s" % (name, surname)
+
 def num():
     return "%s" % (len(data))
