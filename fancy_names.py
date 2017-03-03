@@ -4,6 +4,7 @@ with open('names.json') as name_data:
     data = json.load(name_data)
 
 def randomize():
+    """Randomize some stuff!"""
     return "%s %s" % (data[r.randrange(0, len(data))]["name"], data[r.randrange(0, len(data))]["surname"])
 
 def rand():
